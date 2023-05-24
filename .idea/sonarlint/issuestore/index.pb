@@ -32,5 +32,3 @@ H
 public/sketch.properties,c\a\ca1721c736754690026e92e0452733441c3a1979
 A
 public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
-R
-"src/components/NavbarComponent.tsx,5\e\5e251dac3f094b7afea85591f2e6ec95c8ddb92a

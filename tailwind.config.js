@@ -18,6 +18,9 @@ module.exports = {
                 'main-questrial': ['Questrial', 'sans-serif'],
                 'main-dm-sans': ['DM Sans', 'sans-serif'],
             },
+            spacing: {
+                '41': '10.25rem',
+            }
         },
     },
     plugins: [require('flowbite/plugin')],

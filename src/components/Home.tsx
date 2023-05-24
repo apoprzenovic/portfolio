@@ -5,12 +5,13 @@ function Home() {
     const [imageSrc, setImageSrc] = useState("images/mail.png");
 
     return (
-        <div className={"flex container w-10/12 m-auto pt-56 p-10 py-20 rounded"} id={"home"}>
+
+        <div className={"flex container w-9/12 m-auto pt-56 p-10 py-20 rounded"}>
             <div className={"columns-1 mr-16 text-justify"}>
                 <p className={"text-white text-7xl font-main-questrial"}>
                     Welcome.
                 </p>
-                <p className={"text-gray-500 mt-7 text-3xl font-main-dm-sans"}>
+                <p className={"text-gray-400 mt-7 text-3xl font-main-dm-sans"}>
                     My name is <span className={"text-main-baby-blue"}>Arnes</span>, and I believe there
                     is <span>10<sub className={"-z-10"}>(2)</sub></span> types of people in this world :), people who
                     like
@@ -18,7 +19,7 @@ function Home() {
                     and
                     those who don’t.
                 </p>
-                <p className={"text-gray-600 mt-7 text-xl"}>
+                <p className={"text-gray-500 mt-7 text-xl"}>
                     I’m an aspiring software engineer from Zagreb and love solving complex problems. I have great
                     interest in backend development, full-stack development and have started taking an interest in
                     machine learning.
