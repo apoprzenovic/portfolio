@@ -23,11 +23,11 @@ function SmoothScrollLink({to, children, ...rest}: SmoothScrollLinkProps) {
 
 function NavbarComponent() {
     return (
-        <div className={"bg-main-dark-blue rounded-b sticky top-0"}>
+        <div className={"bg-main-black rounded-b sticky top-0"}>
             <Navbar
                 fluid={true}
                 rounded={true}
-                className={"!bg-main-dark-blue !text-white ml-28 mr-28 pb-7 pt-7 z-50"}
+                className={"!bg-main-black !text-white ml-28 mr-28 pb-7 pt-7 z-50"}
             >
                 <Navbar.Brand>
                     <img
@@ -78,6 +78,7 @@ function NavbarComponent() {
                     </SmoothScrollLink>
                 </Navbar.Collapse>
             </Navbar>
+            <hr className={"border-main-baby-blue w-11/12 rounded-2xl border-t m-auto"}/>
         </div>
     );
 }

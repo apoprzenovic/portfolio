@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7271690f-e797-4648-9d57-3b0fec34eaae" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/public/images/me2-cropped.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/me2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/me3-cropped.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/me3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Experience.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/me-cropped.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/me.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FooterComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavbarComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavbarComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
