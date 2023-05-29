@@ -2,7 +2,7 @@ import {useState} from "react";
 
 function Home() {
 
-    const [imageSrc, setImageSrc] = useState("images/mail.png");
+    const [imageSrc, setImageSrc] = useState(require("../assets/images/mail.png"));
 
     return (
 
@@ -27,8 +27,8 @@ function Home() {
                 <a href="mailto:arnespoprzenovic@gmail.com">
                     <button type="button"
                             className="mt-9 flex items-center text-3xl font-sans text-black bg-main-baby-blue hover:bg-main-blue focus:outline-none focus:ring-4 focus:ring-main-dark-blue font-semibold rounded-lg px-7 pt-5 pb-6"
-                            onMouseEnter={() => setImageSrc("images/mail-black.png")}
-                            onMouseLeave={() => setImageSrc("images/mail.png")}>
+                            onMouseEnter={() => setImageSrc(require("../assets/images/mail-black.png"))}
+                            onMouseLeave={() => setImageSrc(require("../assets/images/mail.png"))}>
                         <img
                             alt={"mail icon"}
                             src={imageSrc}
@@ -40,7 +40,7 @@ function Home() {
             </div>
             <div className={"column-2 hidden md:flex"}>
                 <video className={"w-[800px] h-auto"} loop autoPlay muted>
-                    <source src="animations/animation.mp4" type="video/mp4" className={"bg-none"}/>
+                    <source src={require("../assets/animations/animation.mp4")} type="video/mp4" className={"bg-none"}/>
                 </video>
             </div>
 

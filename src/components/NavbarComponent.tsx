@@ -23,28 +23,28 @@ function SmoothScrollLink({to, children, ...rest}: SmoothScrollLinkProps) {
 
 function NavbarComponent() {
     return (
-        <div className={"bg-main-black rounded-b sticky top-0"}>
+        <div className={"bg-main-black rounded-b sticky top-0 z-50"}>
             <Navbar
                 fluid={true}
                 rounded={true}
-                className={"!bg-main-black !text-white ml-28 mr-28 pb-7 pt-7 z-50"}
+                className={"!bg-main-black !text-white ml-28 mr-28 pb-7 pt-7"}
             >
                 <Navbar.Brand>
                     <img
                         alt={"mail"}
-                        src={"images/mail.png"}
+                        src={require("../assets/images/mail.png")}
                         className={"w-6 hover:cursor-pointer"}
                         onClick={() => window.open('mailto:arnespoprzenovic@gmail.com', '_blank')}
                     />
                     <img
                         alt={"github"}
-                        src={"images/github-logo.png"}
+                        src={require("../assets/images/github-logo.png")}
                         className={"w-6 h-auto ml-3 mr-3 hover:cursor-pointer"}
                         onClick={() => window.open('https://github.com/apoprzenovic', '_blank')}
                     />
                     <img
                         alt={"linkedin"}
-                        src={"images/linkedin.png"}
+                        src={require("../assets/images/linkedin.png")}
                         className={"w-6 hover:cursor-pointer"}
                         onClick={() => window.open('https://www.linkedin.com/in/arnes-poprzenovic-77b4601a5/', '_blank')}
                     />

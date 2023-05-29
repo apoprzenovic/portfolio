@@ -9,7 +9,7 @@ function About() {
                 <div className={"column-1"}>
                     <img
                         alt={"my portrait"}
-                        src={"images/me3.jpg"}
+                        src={require("../assets/images/me3.jpg")}
                         className={"w-80 h-auto rounded-2xl hidden md:block ml-3.5"}
                     />
                 </div>

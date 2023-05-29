@@ -10,7 +10,7 @@ function Experience() {
                 <p className={"text-xl text-justify text-gray-500"}>
                     An overview of my professional experiences:
                 </p>
-                <Timeline className={"ml-6 mt-5"}>
+                <Timeline className={"ml-6 mt-5 -z-10"}>
 
                     <Timeline.Item id={"UTA-RITCROATIA"}>
                         <Timeline.Point/>

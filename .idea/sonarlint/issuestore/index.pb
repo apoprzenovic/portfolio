@@ -30,5 +30,5 @@ D
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 H
 public/sketch.properties,c\a\ca1721c736754690026e92e0452733441c3a1979
-A
-public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
+=
+src/index.tsx,5\a\5ab44fe33ca96299f51ad4778a73e425b92bf439
