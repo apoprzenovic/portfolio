@@ -58,3 +58,7 @@ G.idea/sonarlint/issuestore/5/6/5621b8f9ab975e986075060288eda32d9e447df8,8\2\82
 Q.idea/sonarlint/securityhotspotstore/3/e/3ec4b5ceb860fa4a10e841c86a88ab82c0a1d6ff,b\6\b6ca7e6177e76e6611a139b59cb7cc646f44c8cb
 w
 G.idea/sonarlint/issuestore/b/1/b136295801eac819d5817a6bcf7bdd2481dd17e4,3\f\3f34e991391beca27d79b47cca4f1af58f8eaef7
+P
+ src/components/bundle/Skills.tsx,0\3\0357ee2f721736a69ea4d6cbc391a9cc8bc3b487
+M
+src/components/Experience.tsx,6\1\615a074b274a011157a872e37af2e4e9fb8df01f

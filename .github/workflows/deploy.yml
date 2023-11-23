@@ -9,10 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: |
-          git config --global user.email "arnespoprzenovic@gmail.com"
-          git config --global user.name "apoprzenovic"
-
       - uses: actions/checkout@v2
 
       - name: Setup Node.js environment
@@ -23,5 +19,12 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Configure Git
+        run: |
+          git config --global user.email "arnespoprzenovic@gmail.com"
+          git config --global user.name "apoprzenovic"
+
       - name: Deploying the static website to gh-pages
         run: npm run deploy
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
