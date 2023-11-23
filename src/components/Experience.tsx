@@ -22,7 +22,7 @@ function Experience() {
                             "Conducted thorough testing of the backend and data-streaming services using JUnit and Mockito, ensuring reliability and consistence of the application",
                             "Assisted in deploying application components using Docker and OpenShift, and managed database schema changes with Liquibase, contributing to the robust and scalable infrastructure of the project"
                         ]}
-                        technologies="PostgreSQL, Mockito, React, JUnit, OpenShift, Spring Boot, Apache Kafka, Docker, Liquibase"
+                        technologies="Postgres, Mockito, React, JUnit, OpenShift, Spring Boot, Apache Kafka, Docker, Liquibase"
                     />
                     <ExperienceItem
                         time="Sep 2022 — May 2023"
