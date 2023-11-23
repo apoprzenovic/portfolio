@@ -9,6 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - run: |
+          git config --global user.email "arnespoprzenovic@gmail.com"
+          git config --global user.name "apoprzenovic"
+
       - uses: actions/checkout@v2
 
       - name: Setup Node.js environment
