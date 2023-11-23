@@ -1,0 +1,39 @@
+html {
+    background-color: #0A0A0A;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+ul {
+    list-style-position: outside;
+}
+
+ul li {
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+.img-light {
+    filter: invert(1);
+    transition: filter 0.3s;
+}
+
+.img-dark {
+    filter: invert(0);
+    transition: filter 0.3s;
+}
+
+.slide-in {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.carousel {
+    transform: translateX(-100px);
+    opacity: 0;
+}
