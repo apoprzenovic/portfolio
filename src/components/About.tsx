@@ -1,20 +1,23 @@
 import React from 'react';
+import Skills from "./bundle/Skills";
 
 function About() {
+    const skills = ["Java", "Postgres", "Spring Boot", "Azure", "JavaScript", "React"];
+
     return (
-        <div className={"container w-9/12 m-auto mt-41 p-10 py-20"}>
+        <div id={"aboutId"} className={"container w-9/12 m-auto sm:mt-41 p-0 sm:p-10 py-20"}>
             <p className={"text-4xl font-main-questrial text-white"}>about-me</p>
-            <hr className={"border-gray-500 dark:border-gray-700 w-80 mt-5 mb-20 rounded-3xl border-t-2"}/>
+            <hr className={"border-gray-500 dark:border-gray-700 w-50 sm:w-80 mt-5 mb-10 sm:mb-14 rounded-3xl border-t-2"}/>
             <div className={"container flex flex-col md:flex-row"}>
                 <div className={"column-1"}>
                     <img
-                        alt={"my portrait"}
-                        src={require("../assets/images/me3.jpg")}
+                        alt={"Arnes Poprzenovic"}
+                        src={require("../assets/images/me.jpg")}
                         className={"w-80 h-auto rounded-2xl hidden md:block ml-3.5"}
                     />
                 </div>
-                <div className={"column-2 md:w-11/12 md:pl-20 pr-3"}>
-                    <p className={"text-xl text-justify text-gray-500"}>
+                <div className={"column-2 md:w-11/12 md:pl-20 sm:pr-3"}>
+                    <p className={"text-xl text-left text-gray-400"}>
                         I have recently completed my sophomore year at RIT Croatia, Zagreb, and I am currently seeking
                         an
                         internship opportunity that will refine and enhance my software engineering skills. My passion
@@ -25,86 +28,14 @@ function About() {
                         While I am proficient in frontend tasks, my preference
                         leans
                         towards working with algorithms and various backend development intricacies.
+                        <br className={"block sm:hidden"}/> <br className={"block sm:hidden"}/>
                         Concurrently, I
                         am pursuing a Bachelor of Science degree in Web and Mobile Computing at RIT Croatia.
 
                         Recently, I have honed my skills in various technologies:
                     </p>
-                    <div className={"container flex pl-10  mt-6 mb-6"}>
-                        <div className={"w-1/3"}>
-                            <ul className="space-y-4 text-left text-gray-500 dark:text-gray-400">
-                                <li className="flex items-center space-x-3">
-                                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                         style={{fill: '#bedcfe'}}
-                                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd"
-                                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                              clipRule="evenodd"></path>
-                                    </svg>
-                                    <span className={"text-main-baby-blue"}>Java</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-                                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                         style={{fill: '#bedcfe'}}
-                                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd"
-                                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                              clipRule="evenodd"></path>
-                                    </svg>
-                                    <span className={"text-main-baby-blue"}>C#</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className={"w-1/3"}>
-                            <ul className="space-y-4 text-left text-gray-500 dark:text-gray-400">
-                                <li className="flex items-center space-x-3">
-                                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                         style={{fill: '#bedcfe'}}
-                                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd"
-                                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                              clipRule="evenodd"></path>
-                                    </svg>
-                                    <span className={"text-main-baby-blue"}>Spring</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-                                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                         style={{fill: '#bedcfe'}}
-                                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd"
-                                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                              clipRule="evenodd"></path>
-                                    </svg>
-                                    <span className={"text-main-baby-blue"}>Azure</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className={"w-1/3"}>
-                            <ul className="space-y-4 text-left text-gray-500 dark:text-gray-400">
-                                <li className="flex items-center space-x-3">
-                                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                         style={{fill: '#bedcfe'}}
-                                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd"
-                                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                              clipRule="evenodd"></path>
-                                    </svg>
-                                    <span className={"text-main-baby-blue"}>JavaScript ES6+</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-                                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                         style={{fill: '#bedcfe'}}
-                                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd"
-                                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                              clipRule="evenodd"></path>
-                                    </svg>
-                                    <span className={"text-main-baby-blue"}>React</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p className={"text-xl text-justify text-gray-500"}>
+                    <Skills skills={skills}/>
+                    <p className={"text-xl text-left text-gray-400"}>
                         Beside my professional pursuits, I enjoy skiing, swimming, and playing games.
                         Furthermore, I am interested in the development of Artificial Intelligence.
                     </p>

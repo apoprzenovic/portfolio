@@ -9,10 +9,12 @@ module.exports = {
         extend: {
             colors: {
                 'main-dark-blue': '#020c12',
+                'main-medium-blue': '#03121a',
                 'main-black': '#0A0A0A',
-                'main-baby-blue': '#bedcfe',
+                'main-baby-blue': '#a0c9f8',
                 'main-green': '#538083',
-                'main-blue': '#0A9DAE',
+                'main-blue': '#6d99e8',
+                'gray-75': '#BFBFBF',
             },
             fontFamily: {
                 'main-questrial': ['Questrial', 'sans-serif'],
