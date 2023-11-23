@@ -16,3 +16,9 @@ w
 G.idea/sonarlint/issuestore/f/1/f130ad0d1d16d0d70ec30d355f736ae3784b05cf,b\0\b0d43a5e0bb2f9d6a1513182326f9cdd6d355981
 L
 .github/workflows/deploy.yml,f\1\f130ad0d1d16d0d70ec30d355f736ae3784b05cf
+A
+package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47
+Å
+Q.idea/sonarlint/securityhotspotstore/f/a/fa288d1472d29beccb489a676f68739ad365fc47,8\7\87e2c3a83dc597fc0ead43218c432cce50269498
+w
+G.idea/sonarlint/issuestore/f/a/fa288d1472d29beccb489a676f68739ad365fc47,c\d\cdb55fb7b9550cf1c93c03e68dfe3882647e90dc
