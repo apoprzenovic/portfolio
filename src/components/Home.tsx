@@ -18,7 +18,7 @@ function Home() {
                     those who don’t.
                 </p>
                 <p className={"text-gray-400 mt-7 text-xl"}>
-                    I’m an aspiring software engineer from Zagreb and love solving complex problems. I have great
+                    I’m an aspiring software engineer living in Zagreb and love solving complex problems. I have great
                     interest in backend development, full-stack development and have started taking an interest in
                     machine learning.
                 </p>

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ef07a0-512c-4cbd-b7ae-e98f46a2bdf1" name="Changes" comment="Create Deploy to gh-pages" />
+    <list default="true" id="d9ef07a0-512c-4cbd-b7ae-e98f46a2bdf1" name="Changes" comment="Update deploy.yml">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +15,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700775850221</updated>
-      <workItem from="1700775851282" duration="1081000" />
+      <workItem from="1700775851282" duration="2828000" />
     </task>
     <task id="LOCAL-00001" summary="Create Deploy to gh-pages">
       <option name="closed" value="true" />
@@ -67,7 +77,39 @@
       <option name="project" value="LOCAL" />
       <updated>1700776838558</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add gh-pages dependency">
+      <option name="closed" value="true" />
+      <created>1700777102645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700777102645</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add Author to Github Pages">
+      <option name="closed" value="true" />
+      <created>1700777350380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700777350380</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update deploy.yml">
+      <option name="closed" value="true" />
+      <created>1700777822971</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700777822971</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update deploy.yml">
+      <option name="closed" value="true" />
+      <created>1700778112880</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700778112880</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +117,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Deploy to gh-pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Deploy to gh-pages" />
+    <MESSAGE value="Add gh-pages dependency" />
+    <MESSAGE value="Add Author to Github Pages" />
+    <MESSAGE value="Update deploy.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update deploy.yml" />
   </component>
 </project>
