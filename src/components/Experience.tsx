@@ -19,7 +19,7 @@ function Experience() {
                         body={[
                             "Engaged in the development of an application for simulating TV watching and channel switching, utilizing React for frontend, and Spring Boot for backend to create responsive REST APIs, facilitating a seamless user experience",
                             "Applied a user interaction tracking system using Apache Kafka, which recorded channel preferences based on user viewing patterns and prompted them to subscribe to new packages, enhancing the app's functionality and engagement",
-                            "Conducted thorough testing of the backend and data-streaming services using JUnit and Mockito, ensuring reliability and consistence of the application",
+                            "Conducted thorough testing of the backend and data-streaming services using JUnit and Mockito, ensuring reliability and consistency of the application",
                             "Assisted in deploying application components using Docker and OpenShift, and managed database schema changes with Liquibase, contributing to the robust and scalable infrastructure of the project"
                         ]}
                         technologies="Postgres, Mockito, React, JUnit, OpenShift, Spring Boot, Apache Kafka, Docker, Liquibase"

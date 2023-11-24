@@ -10,17 +10,15 @@ function Home() {
                     Welcome.
                 </p>
                 <p className={"text-gray-200 mt-7 text-3xl font-main-dm-sans"}>
-                    My name is <span className={"text-main-baby-blue"}>Arnes</span>, and I believe there
-                    is <span>10<sub className={"-z-10"}>(2)</sub></span> types of people in this world :), people who
-                    like
-                    programming
-                    and
-                    those who don’t.
+                    My name is <span className={"text-main-baby-blue"}>Arnes</span>, and I believe
+                    there are <span className={"underline"}>10</span><sub className={"-z-10"}>(2)</sub> types of people
+                    in this world :),
+                    people who like programming and those who don’t.
                 </p>
                 <p className={"text-gray-400 mt-7 text-xl"}>
-                    I’m an aspiring software engineer living in Zagreb and love solving complex problems. I have great
-                    interest in backend development, full-stack development and have started taking an interest in
-                    machine learning.
+                    I’m an aspiring software engineer, currently living in Zagreb, who loves solving complex problems. I
+                    have great interest in backend development, full-stack development, and have started taking an
+                    interest in machine learning.
                 </p>
                 <button type="button"
                         className="mt-9 flex items-center text-xl font-sans text-black bg-main-baby-blue

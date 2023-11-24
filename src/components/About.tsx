@@ -18,7 +18,7 @@ function About() {
                 </div>
                 <div className={"column-2 md:w-11/12 md:pl-20 sm:pr-3"}>
                     <p className={"text-xl text-left text-gray-400"}>
-                        I am currently a third year student at RIT Croatia, Zagreb, and am actively seeking
+                        I am currently a third-year student at RIT Croatia, Zagreb, and am actively seeking
                         an
                         internship that will develop and enhance my software engineering skills. My passion
                         lies in backend and full-stack development.
