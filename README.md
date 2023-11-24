@@ -43,7 +43,7 @@ The website includes the following sections:
 - Tailwind CSS
 
 ## Contact
-For more information or to discuss potential opportunities, please reach out to me at [arnespoprzenovic@gmail.com]. 📧
+For more information or to discuss potential opportunities, please reach out to me at [arnespoprzenovic@gmail.com](mailto:arnespoprzenovic@gmail.com). 📧
 
 ---
 
