@@ -11,16 +11,16 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({title, description, techStack, githubLink}) => {
     return (
-        <Card className="max-w-sm !bg-main-medium-blue !border-main-medium-blue">
+        <Card className="max-w-sm !bg-main-medium-blue !border-main-medium-blue" aria-label="Project Card">
             <div className="flex items-center">
                 <div
                     className="flex-grow-0 flex-shrink-0 flex-basis-1/5 flex items-center justify-center mr-2">
                     <FolderOutlined className="text-9xl text-main-baby-blue"/>
                 </div>
                 <div className="flex-grow flex-shrink flex-basis-4/5">
-                    <h5 className="sm:pb-0.5 text-lg sm:text-2xl font-bold tracking-tight text-white dark:text-white">
+                    <h2 className="sm:pb-0.5 text-lg sm:text-2xl font-bold tracking-tight text-white dark:text-white">
                         {title}
-                    </h5>
+                    </h2>
                 </div>
             </div>
             <p className="font-normal text-gray-200">

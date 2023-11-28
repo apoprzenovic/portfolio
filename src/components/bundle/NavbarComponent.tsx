@@ -24,7 +24,7 @@ function SmoothScrollLink({to, children, ...rest}: Readonly<SmoothScrollLinkProp
 
 function NavbarComponent() {
     return (
-        <div className={"bg-main-black rounded-b sticky top-0 z-50"}>
+        <nav className={"bg-main-black rounded-b sticky top-0 z-50"} aria-label={"Main Navbar"}>
             <Navbar
                 fluid={true}
                 rounded={true}
@@ -75,7 +75,7 @@ function NavbarComponent() {
                 </Navbar.Collapse>
             </Navbar>
             <hr className={"border-main-baby-blue w-11/12 rounded-2xl border-t m-auto"}/>
-        </div>
+        </nav>
     );
 }
 

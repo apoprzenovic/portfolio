@@ -5,8 +5,8 @@ function About() {
     const skills = ["Java", "Postgres", "Spring Boot", "Azure", "JavaScript", "React"];
 
     return (
-        <div id={"aboutId"} className={"container w-9/12 m-auto sm:mt-41 p-0 sm:p-10 py-20"}>
-            <p className={"text-4xl font-main-questrial text-white"}>about-me</p>
+        <section id={"aboutId"} className={"container w-9/12 m-auto sm:mt-41 p-0 sm:p-10 py-20"} aria-label="About Section">
+            <h1 className={"text-4xl font-main-questrial text-white"}>about-me</h1>
             <hr className={"border-gray-500 dark:border-gray-700 w-50 sm:w-80 mt-5 mb-10 sm:mb-14 rounded-3xl border-t-2"}/>
             <div className={"container flex flex-col md:flex-row"}>
                 <div className={"column-1"}>
@@ -40,7 +40,7 @@ function About() {
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

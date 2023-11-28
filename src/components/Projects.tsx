@@ -4,8 +4,8 @@ import ProjectCard from "./bundle/ProjectCard";
 
 function Projects() {
     return (
-        <div id={"projectsId"} className={"container w-9/12 m-auto sm:mt-41 p-0 sm:p-10 py-20"}>
-            <p className={"text-4xl font-main-questrial text-white"}>projects</p>
+        <section id={"projectsId"} className={"container w-9/12 m-auto sm:mt-41 p-0 sm:p-10 py-20"} aria-label="Projects Section">
+            <h1 className={"text-4xl font-main-questrial text-white"}>projects</h1>
             <hr className={"border-gray-500 dark:border-gray-700 w-50 sm:w-80 mt-5 mb-10 rounded-3xl border-t-2"}/>
             <div className={"container"}>
                 <p className={"text-xl text-left text-gray-75"}>
@@ -62,7 +62,7 @@ function Projects() {
                                  githubLink={"https://github.com/apoprzenovic/alien-man"}/>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

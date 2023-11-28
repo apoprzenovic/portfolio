@@ -134,3 +134,11 @@ Q.idea/sonarlint/securityhotspotstore/b/8/b8a20ddf04d694a22f1c8a1b1654cd27d8a2a0
 Q.idea/sonarlint/securityhotspotstore/b/9/b9c614b116f9d0f0cd4267084974c9291d6615a7,4\c\4c84ade88d42b570df660469ae985abdb6735eb4
 w
 G.idea/sonarlint/issuestore/f/0/f0374d6e9d78af13163173b60ef95a821255b9cc,a\7\a7a15a2cd6e86de659bdcff6bd4bd6b23c546df3
+X
+(src/components/bundle/ExperienceItem.tsx,8\1\81105e17bc5aa86313d004e43f44953910bdd420
+Y
+)src/components/bundle/FooterComponent.tsx,c\0\c075363f68718918c40740bae3d6dcf6785e06b5
+V
+&build/static/css/main.2d665cb8.css.map,b\2\b2e708e4f327b2d7fb3d423244a7d980b27fd941
+R
+"build/static/css/main.2d665cb8.css,d\1\d1a7ebfae9fde0f78a56bcd1a01beed148e2ca14

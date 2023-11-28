@@ -6,7 +6,7 @@ interface SkillProps {
 
 const Skills: React.FC<SkillProps> = ({skills}) => {
     return (
-        <div className={"container grid grid-cols-3 sm:grid-rows-2 gap-4 sm:pl-10 mt-6 mb-6"}>
+        <div className={"container grid grid-cols-3 sm:grid-rows-2 gap-4 sm:pl-10 mt-6 mb-6"} aria-label="Skills List">
             {skills.map((skill, index) => (
                 <div key={index} className={"w-full"}>
                     <ul className="space-y-4 text-left text-gray-500 dark:text-gray-400">
