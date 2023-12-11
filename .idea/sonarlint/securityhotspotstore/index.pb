@@ -142,3 +142,11 @@ V
 &build/static/css/main.2d665cb8.css.map,b\2\b2e708e4f327b2d7fb3d423244a7d980b27fd941
 R
 "build/static/css/main.2d665cb8.css,d\1\d1a7ebfae9fde0f78a56bcd1a01beed148e2ca14
+A
+public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
+;
+src/App.tsx,8\3\835da56f32df714aaed6285a5b7fc3a7807851e4
+=
+src/index.css,c\5\c5d38a62d1faae90a2acaa34b79a7ef365c917e4
+=
+src/index.tsx,5\a\5ab44fe33ca96299f51ad4778a73e425b92bf439
