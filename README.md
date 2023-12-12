@@ -1,7 +1,7 @@
 # Arnes Poprzenovic's Portfolio 🌟
 
 ## Introduction
-Welcome to my portfolio website, a comprehensive showcase of my education, experience, and projects. I am Arnes Poprzenovic, an aspiring software engineer with a passion for backend and full-stack development, and a growing interest in machine learning. 🚀
+I am Arnes Poprzenovic, an aspiring software engineer with a passion for backend and full-stack development, and a growing interest in machine learning. Welcome to my portfolio website, which you can access [here](https://arnespoprzenovic.com/). Where you can find a comprehensive showcase of my education, experience, and projects. 🚀
 
 ## Getting Started
 This portfolio is developed using React and bootstrapped with Create React App.
