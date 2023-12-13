@@ -52,25 +52,25 @@ function NavbarComponent() {
                         to="home"
                         className={"text-white text-xl hover:!text-main-blue transition-colors duration-300"}
                     >
-                        home
+                        Home
                     </SmoothScrollLink>
                     <SmoothScrollLink
                         to="about"
                         className={"text-white text-xl hover:!text-main-blue transition-colors duration-300"}
                     >
-                        about-me
+                        About
                     </SmoothScrollLink>
                     <SmoothScrollLink
                         to="experience"
                         className={"text-white text-xl hover:!text-main-blue transition-colors duration-300"}
                     >
-                        experience
+                        Experience
                     </SmoothScrollLink>
                     <SmoothScrollLink
                         to="projects"
                         className={"text-white text-xl hover:!text-main-blue transition-colors duration-300"}
                     >
-                        projects
+                        Projects
                     </SmoothScrollLink>
                 </Navbar.Collapse>
             </Navbar>

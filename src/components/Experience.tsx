@@ -6,7 +6,7 @@ function Experience() {
     return (
         <section id={"experienceId"}
              className={"container w-9/12 m-auto sm:mt-41 p-0 sm:p-10 py-20"} aria-label="Experience Section">
-            <h1 className={"text-4xl font-main-questrial text-white"}>experience</h1>
+            <h1 className={"text-4xl font-main-questrial text-white"}>Experience</h1>
             <hr className={"border-gray-500 dark:border-gray-700 w-50 sm:w-80 mt-5 mb-10 rounded-3xl border-t-2"}/>
             <div className={"container"}>
                 <p className={"text-xl text-left text-gray-75"}>
