@@ -1,4 +1,4 @@
-# Arnes Poprzenovic's Portfolio 🌟
+# Portfolio Website 🌟
 
 ## Introduction
 I am Arnes Poprzenovic, an aspiring software engineer with a passion for backend and full-stack development, and a growing interest in machine learning. Welcome to my portfolio website, which you can access [here](https://arnespoprzenovic.com/). Where you can find a comprehensive showcase of my education, experience, and projects. 🚀
@@ -27,8 +27,13 @@ This portfolio is developed using React and bootstrapped with Create React App.
 - `npm run eject`: Removes the single build dependency from the project. ⚙️
 
 ### Deployment
-This portfolio is set up for deployment using GitHub Pages. Run `npm run deploy` to deploy the application. 🚀
+This portfolio is set up for deployment using both GitHub Pages and Cloudflare Pages. 
 
+1. Run `npm run deploy` to deploy the application to GitHub Pages. 🚀
+
+2. For Cloudflare Pages, the deployment is configured to automatically build and deploy the main branch. After deployment, Cloudflare Pages provides a unique URL for the website.
+
+3. A custom domain is set up in Cloudflare Pages settings to redirect to `arnespoprzenovic.com`, effectively displaying the portfolio on this domain.
 ## Layout
 The website includes the following sections:
 - Home 🏠
