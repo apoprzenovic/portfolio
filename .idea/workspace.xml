@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ef07a0-512c-4cbd-b7ae-e98f46a2bdf1" name="Changes" comment="Clean up Dependencies">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="d9ef07a0-512c-4cbd-b7ae-e98f46a2bdf1" name="Changes" comment="Update About Section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/me.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +137,8 @@
       <workItem from="1706260930301" duration="59000" />
       <workItem from="1706745982498" duration="8000" />
       <workItem from="1708707830664" duration="86000" />
-      <workItem from="1708707952413" duration="5853000" />
+      <workItem from="1708707952413" duration="6024000" />
+      <workItem from="1708716042787" duration="906000" />
     </task>
     <task id="LOCAL-00001" summary="Create Deploy to gh-pages">
       <option name="closed" value="true" />
@@ -223,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702605661799</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update About Section">
+      <option name="closed" value="true" />
+      <created>1708715544573</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708715544573</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +255,7 @@
     <MESSAGE value="Update Capital Letters" />
     <MESSAGE value="Change favicon.ico Size" />
     <MESSAGE value="Clean up Dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean up Dependencies" />
+    <MESSAGE value="Update About Section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update About Section" />
   </component>
 </project>
