@@ -18,15 +18,13 @@
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist -t -r https://arnespoprzenovic:${GH_TOKEN}@github.com/apoprzenovic/portfolio.git"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@types/node": "^22",
     "@vitejs/plugin-react": "^4",
     "autoprefixer": "^10.4.27",
-    "gh-pages": "^6.1.0",
-    "postcss": "^8.5.8",
+"postcss": "^8.5.8",
     "tailwindcss": "^3.3.2",
     "typescript": "^5",
     "vite": "^6"
