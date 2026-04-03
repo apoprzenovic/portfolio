@@ -1,8 +1,9 @@
 import React from 'react';
 import Skills from "./bundle/Skills";
+import meImage from "../assets/images/me.jpg";
 
 function About() {
-    const skills = ["Java", "Postgres", "Spring Boot", "Azure", "JavaScript", "React"];
+    const skills = ["Java", "Spring Boot", "Apache Kafka", "PostgreSQL", "ClickHouse", "MSSQL", "Redis", "React"];
 
     return (
         <section id={"aboutId"} className={"container w-9/12 m-auto sm:mt-41 p-0 sm:p-10 py-20"}
@@ -13,33 +14,31 @@ function About() {
                 <div className={"column-1"}>
                     <img
                         alt={"Arnes Poprzenovic"}
-                        src={require("../assets/images/me.jpg")}
+                        src={meImage}
                         className={"w-80 h-auto rounded-2xl ml-0 md:ml-3.5"}
                     />
                 </div>
                 <div className={"column-2 md:w-11/12 md:pl-20 sm:pr-3"}>
                     <p className={"text-xl text-left text-gray-400 mt-9 md:mt-0"}>
-                        I am currently a third-year student at RIT Croatia, Zagreb, and am actively seeking
-                        an
-                        internship that will develop and enhance my software engineering skills. My passion
-                        lies in backend and full-stack development.
+                        I am a Software Engineer at Infobip, working on Signals, a high-throughput
+                        anti-fraud platform processing over 2 billion events monthly. My passion
+                        lies in backend development and distributed systems.
                         <br/><br/>
 
-                        While I am proficient in frontend tasks, my preference
-                        leans
-                        towards developing backend services and learning how to deal with large scale systems.
+                        I graduated Summa Cum Laude (GPA: 3.91/4.00) from RIT Croatia with a
+                        Bachelor of Science in Web and Mobile Computing. While I am proficient
+                        in frontend tasks, my preference leans towards developing backend services
+                        and building scalable systems that handle massive concurrent workloads.
                         <br className={"block sm:hidden"}/> <br className={"block sm:hidden"}/>
-                        Concurrently, I
-                        am pursuing a Bachelor of Science degree in Web and Mobile Computing at RIT Croatia.
 
-                        Recently, I have honed my skills in various technologies:
+                        Here are some technologies I work with:
                     </p>
                     <Skills skills={skills}/>
                     <p className={"text-xl text-left text-gray-400"}>
                         Beside my professional pursuits, I enjoy skiing, swimming, and playing games.
-                        Furthermore, I am interested in learning how to pitch tech products, their overall architecture,
-                        how
-                        they're set up, how to deal with a large amount of data, etc.
+                        Furthermore, I am interested in how to pitch tech products, their overall
+                        architecture, and how to design systems that handle large amounts of data
+                        at scale.
                     </p>
                 </div>
             </div>

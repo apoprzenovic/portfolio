@@ -66,12 +66,6 @@ function NavbarComponent() {
                     >
                         Experience
                     </SmoothScrollLink>
-                    <SmoothScrollLink
-                        to="projects"
-                        className={"text-white text-xl hover:!text-main-blue transition-colors duration-300"}
-                    >
-                        Projects
-                    </SmoothScrollLink>
                 </Navbar.Collapse>
             </Navbar>
             <hr className={"border-main-baby-blue w-11/12 rounded-2xl border-t m-auto"}/>

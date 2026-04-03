@@ -5,7 +5,6 @@ import FooterComponent from "./components/bundle/FooterComponent";
 import Home from "./components/Home";
 import About from "./components/About";
 import Experience from "./components/Experience";
-import Projects from "./components/Projects";
 
 function App() {
     return (
@@ -17,8 +16,6 @@ function App() {
             <About/>
             <div id={"experience"}/>
             <Experience/>
-            <div id={"projects"}/>
-            <Projects/>
             <FooterComponent/>
         </>
     );

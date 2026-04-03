@@ -1,5 +1,6 @@
 import React from "react";
 import {EmailOutlined} from "@mui/icons-material";
+import animationVideo from "../assets/animations/animation.mp4";
 
 function Home() {
     return (
@@ -16,9 +17,9 @@ function Home() {
                     people who like programming and those who don’t.
                 </p>
                 <p className={"text-gray-400 mt-7 text-xl"}>
-                    I’m an aspiring software engineer, currently living in Zagreb, who loves solving complex problems. I
-                    have great interest in backend development, full-stack development, and have started taking an
-                    interest in machine learning.
+                    I’m a software engineer currently living in Zagreb, who loves solving complex problems. I
+                    prefer backend development, working with distributed systems, and building
+                    scalable architecture that handles high throughput.
                 </p>
                 <button type="button"
                         className="mt-9 flex items-center text-xl font-sans text-black bg-main-baby-blue
@@ -32,7 +33,7 @@ function Home() {
             </div>
             <div className={"sm:column-2 hidden md:flex"}>
                 <video className={"w-[800px] h-auto"} loop autoPlay muted>
-                    <source src={require("../assets/animations/animation.mp4")} type="video/mp4" className={"bg-none"}/>
+                    <source src={animationVideo} type="video/mp4" className={"bg-none"}/>
                 </video>
             </div>
         </section>
